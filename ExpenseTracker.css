@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+h2 {
+    margin-bottom: 10px;
+  }
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: #0056b3;
+  }
+
+.summary-section, .expense-section, .income-section {
+    margin-bottom: 2px;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+ul li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid red;
+  }
