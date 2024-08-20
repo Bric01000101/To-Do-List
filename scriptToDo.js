@@ -7,7 +7,7 @@ function addTask() {
     let li = document.createElement('li');
     li.innerHTML = taskText + ' <span class="remove" onclick="removeTask(this)">x</span>';
 
-    document.getElementById('taskList').appendChild(li);
+    document.getElementById('tasklist').appendChild(li);
     taskInput.value = '';
 }
 
